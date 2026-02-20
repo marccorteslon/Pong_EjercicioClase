@@ -10,6 +10,16 @@
     <ClCompile Include="src\Paddle.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ball.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -21,6 +31,19 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\Paddle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\includes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ball.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="src\InputManager.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "Paddle.h"
+#include "Ball.h"
 
 class ofApp : public ofBaseApp{
 
@@ -24,4 +25,14 @@ class ofApp : public ofBaseApp{
 		
 	private:
 		Paddle* ply1 = nullptr;
+
+		bool player1_up_hold = false;
+		bool player1_down_hold = false;
+
+		Paddle* ply2 = nullptr;
+
+		bool player2_up_hold = false;
+		bool player2_down_hold = false;
+
+		Ball* ball = nullptr;
 };

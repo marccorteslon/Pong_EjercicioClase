@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include "math.h"
 
-#define SCREEN_WIDTH 960
-#define SCREEN_HEIGHT 540
+#define SCREEN_WIDTH 1280
+#define SCREEN_HEIGHT 720
 
 #define TILE_SIZE 32
 
